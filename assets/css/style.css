@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background-color: #040404bd;
   color: #fff;
   position: relative;
   background: transparent;
@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background-color: #040404;
+  background-color: #040404bd;
   background-size: cover;
   left: 0;
   right: 0;
@@ -154,7 +154,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #454545;
 }
 
 #header.header-top .social-links,
@@ -293,7 +293,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: black;
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
@@ -354,7 +354,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: transparent;
   padding: 30px;
 }
 
@@ -809,12 +809,12 @@ section .container {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.6);
+  background: transparent;
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: transparent;
   position: absolute;
   left: 30px;
   right: 30px;
@@ -927,7 +927,7 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background: rgba(0, 0, 0, 0.8);
+  background: transparent;
   position: fixed;
   left: 0;
   right: 0;
